@@ -1,48 +1,57 @@
-.navbar {
-    background-color: #5f27cd; /* Deep purple */
-    color: #fff;
-    padding: 20px 40px; /* Increased padding for more space */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Roboto', sans-serif; /* Use Google Font Roboto for a modern look */
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center; // Vertically center the content
+  justify-content: space-between; // Space between social links and nav items
+  padding: 20px 10px; // Increase padding for thicker navbar
+  background-color: #333;
   
-    .navbar-brand {
-      a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 24px;
-        font-weight: bold;
-        letter-spacing: 2px; /* Increase letter spacing for a stylish look */
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+  .social-links {
+    a {
+      margin-right: 15px; // Space between the links
+      color: white; // Link color
+      text-decoration: none;
+
+      &:hover {
+        color: #ccc; // Hover effect
       }
     }
-  
-    .navbar-menu {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center; /* Center the navbar items horizontally */
-  
-      li {
-        margin-left: 40px; /* Set the initial margin between navbar links */
-  
-        a {
-          color: #fff;
-          text-decoration: none;
-          font-size: 18px;
-          transition: color 0.3s ease;
-  
-          &:hover {
-            color: #feca57; /* Change color on hover to yellow */
-          }
+  }
+
+  ul {
+    list-style-type: none;
+    margin-right: 2%; // Reset margin for the navbar
+    
+    padding-right: 20px;
+    display: flex; // Display links in a row
+
+    li {
+      margin: 0 15px; // Space between nav items
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+
+        &:hover {
+          color: #ccc;
         }
       }
     }
-  
-    .navbar-contact {
-      margin-right: 40px; /* Add space between "Contact" and the edge of the webpage */
-    }
   }
-  
+}
+
+.element {
+  height: 100vh;
+  padding: 20px;
+  margin-top: 60px; // Increase top margin to account for thicker navbar
+}
