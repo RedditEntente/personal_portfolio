@@ -1,10 +1,26 @@
+
+import './navigation-bar.styles.scss'
+import { useState } from 'react'
 import React from 'react';
 import { Link, Events, animateScroll as scroll } from 'react-scroll';
-import ProjectShowcase from '../project-showcase/project-showcase.componet';
-
-import './navigation-bar.styles.scss';
-function Nav() {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faLinkedin,
+  faGithub,
   
+} from '@fortawesome/free-brands-svg-icons'
+import {
+  faHome,
+  faUser,
+  faEnvelope,
+  faSuitcase,
+  
+} from '@fortawesome/free-solid-svg-icons'
+
+
+function Nav(){
+
+
   React.useEffect(() => {
     Events.scrollEvent.register('begin');
     Events.scrollEvent.register('end');
@@ -14,29 +30,58 @@ function Nav() {
     };
   }, []);
 
- 
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
 
   return (
-    <div>
-      <nav>
-      <div className="social-links">
-          <a href="https://github.com/RedditEntente" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/samuel-adams-b9b4a8249/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </div>
-        <ul>
-          <li><Link activeClass="active" to="AboutMe" spy={true} smooth={true} duration={500}>About Me</Link></li>
-          <li><Link activeClass="active" to="projectShowcase" spy={true} smooth={true} duration={500}>Projects</Link></li>
-          <li><Link activeClass="active" to="Contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
-          
-        </ul>
-      </nav>
-    </div>
+    <div className="nav-bar">
       
-    
-  );
+      <nav className='nav-icons'>
+        <Link activeClass="active" to="HomeAnimation" spy={true} smooth={true} duration={500}
+          >
+          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+        </Link>
+        <Link className = "about-link"activeClass="active" to="AboutMe" spy={true} smooth={true} duration={500}>
+          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        </Link>
+        <Link className = "portfolio-link"activeClass="active" to="projectShowcase" spy={true} smooth={true} duration={500}>
+          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+        </Link>
+        <Link className = "contact-link"activeClass="active" to="Contact" spy={true} smooth={true} duration={500}>
+          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+        </Link>
+        
+      </nav>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/samuel-adams-b9b4a8249/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              color="#4d4d4e"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/RedditEntente"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              color="#4d4d4e"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        
+      </ul>
+      
+    </div>
+  )
 }
 
-export default Nav;
+export default Nav
