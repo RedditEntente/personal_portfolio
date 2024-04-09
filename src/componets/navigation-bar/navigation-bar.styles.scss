@@ -8,7 +8,7 @@ nav {
   display: flex;
   align-items: center; // Vertically center the content
   justify-content: space-between; // Space between social links and nav items
-  padding: 20px 10px; // Increase padding for thicker navbar
+  padding: 10px 10px; // Increase padding for thicker navbar
   background-color: #333;
   
   position: fixed;
@@ -31,7 +31,7 @@ nav {
     list-style-type: none;
     margin-right: 2%; // Reset margin for the navbar
     
-    padding-right: 20px;
+    
     display: flex; // Display links in a row
 
     li {
@@ -50,8 +50,3 @@ nav {
   }
 }
 
-.element {
-  height: 100vh;
-  padding: 20px;
-  margin-top: 60px; // Increase top margin to account for thicker navbar
-}
