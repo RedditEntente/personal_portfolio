@@ -7,7 +7,7 @@
   left: 0; // Added to align left
   z-index: 3;
   display: flex; // Use flexbox for horizontal alignment
-  justify-content: center; // Center items horizontally
+  
   align-items: center; // Center items vertically
 
   
@@ -15,10 +15,11 @@
   
   nav {
     display: flex;
-    
+    justify-content: right;
     align-items: center;
     width: auto; // Adjust for horizontal layout
     height: 100%; // Full height of the nav bar
+    padding-left: 10%;
 
     a {
       font-size: 22px;
@@ -92,21 +93,23 @@
   }
 
   ul {
-    margin-left: auto;
+    position:absolute;
+    right: 8%;
     display: flex;
     
     
-    justify-content: space-between;
+    justify-content: right;
     list-style: none;
     padding: 5px;
     margin: 0;
+    
     
 
     li {
       a {
         padding: 0 10px; // Adjust padding for items
         color: #4d4d4e;
-        font-size: 15px;
+        font-size: 22px;
       }
 
       &:hover {

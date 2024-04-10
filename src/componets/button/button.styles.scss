@@ -1,0 +1,82 @@
+.button-container {
+    min-width: 165px;
+    width: auto;
+    height: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    background-color: #115173;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    
+  
+    &:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+  
+   
+  
+    &.inverted {
+      background-color: #ffd700;
+      color: black;
+      border: 1px solid black;
+  
+      &:hover {
+        background-color: black;
+        color: #ffd700;
+        border: none;
+      }
+    }
+  }
+
+
+
+
+
+
+  button {
+    padding: 0.1em 0.25em;
+    width: 13em;
+    height: 4.2em;
+    background-color: #212121;
+    border: 0.08em solid#ffd700;
+    border-radius: 0.3em;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  button span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 8.25em;
+    height: 2.5em;
+    background-color: #212121;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #ffd700;
+    border: 0.08em solid #ffd700;
+    box-shadow: 0 0.4em 0.1em 0.019em #ffd700;
+  }
+  
+  button span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #ffd700;
+  }
+  
+  button span:not(hover) {
+    transition: all 1s;
+  }
+  

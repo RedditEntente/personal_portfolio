@@ -8,20 +8,23 @@ import HomeAnimation from "../componets/home-animation/home.animation.componet";
 import "./home.styles.scss"
 function Home(){
     return (
-        <div>
+        <div className="home-color">
             <Nav></Nav>
-            <HomeAnimation className="element"></HomeAnimation>
+            <HomeAnimation className="centeredElement"></HomeAnimation>
+            <div className="padding"></div>
 
             <AboutMe className="element"></AboutMe>
 
 
-            <ProjectShowcase className="element"></ProjectShowcase>
+            <ProjectShowcase className="element1"></ProjectShowcase>
 
 
-            <Contact className="element"></Contact>
+            <Contact className="centeredElement"></Contact>
+            <div className="padding"></div>
+            <div className="padding"></div>
+            
 
-
-
+            
 
         </div>
     )

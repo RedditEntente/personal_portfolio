@@ -2,16 +2,39 @@
 import "./project-showcase.styles.scss";
 import { Element } from "react-scroll";
 import React from 'react';
+import {useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
+
+
+
 
 function ProjectShowcase() {
-    return (
-        <Element name="projectShowcase" id="projectShowcase">
-            <div className="element">
-                <h2>Personal Projects</h2>
-                <p>Content for Section 1...</p>
-            </div>
-        </Element>
-    );
-}
+    useEffect(()=>{
+        Aos.init({
+            duration: 1000,
+            easing:"ease-in-sine",
+            once: false,
+            offset: 350,
+            
 
+        });
+    })
+    return(
+        <Element name="projectShowcase" id="projectShowcase">
+        <div className="MainContainer">
+            <div className="box" data-aos="fade-left"></div>
+            <div className="box" data-aos="fade-right"></div>
+            <div className="box" data-aos="fade-left"></div>
+            <div className="box" data-aos="fade-right"></div>
+            <div className="box" data-aos="fade-left"></div>
+            <div className="box" data-aos="fade-right"></div>
+
+
+        </div>
+        </Element>
+    )
+
+}
+    
 export default ProjectShowcase;

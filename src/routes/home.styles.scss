@@ -2,5 +2,52 @@
     height: 100vh;
     padding: 20px;
     margin-top: 60px; // Increase top margin to account for thicker navbar
+    margin: 50px 50px;
+  }
+
+.centeredElement{
+  height: 100vh;
+  padding: 20px;
+  margin-top: 60px; // Increase top margin to account for thicker navbar
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url(../assets/images/Capadoccia.jpg);
+
+}
+.padding{
+  padding: 20px 20px;
+}
+
+  .element1 {
+    height: 300vh;
+    padding: 20px;
+    margin-top: 60px; // Increase top margin to account for thicker navbar
   }
   
+.home-color{
+    background: linear-gradient(112.44633185402233deg, rgba(249, 231, 148,1) 4.927083333333334%,rgba(246, 190, 212,1) 97.84374999999999%);
+}
+
+
+
+
+.top-tags {
+  bottom: auto;
+  top: 35px;
+}
+
+.tags {
+  color: #ffd700;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  font-size: 18px;
+  font-family: 'La Belle Aurore', cursive;
+}
+
+.bottom-tag-html {
+  margin-left: -20px;
+}
