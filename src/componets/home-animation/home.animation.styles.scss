@@ -16,37 +16,21 @@
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
+    .rotate{animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+      
 
-    &:before {
-      content: '<h1>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -40px;
-      left: -15px;
-      opacity: 0.6;
     }
-
-    &:after {
-      content: '<h1/>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: 18px;
-      margin-left: 20px;
-      animation: fadeIn 1s 1.7s backwards;
-      opacity: 0.6;
-    }
-
+    
+    
     img {
       margin-left: 20px;
       opacity: 0;
       width: 32px;
-      height: auto;
+      height: 100px;
       animation: rotateIn 1s linear both;
       animation-delay: 1.4s;
+     
     }
   }
 
@@ -83,3 +67,12 @@
 
 
 
+.img-container{
+  margin-left: 20px;
+      opacity: 0;
+      width: 44px;
+      height: 60px;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+      
+}

@@ -1,42 +1,77 @@
 
 import { Element } from "react-scroll";
 import { useEffect, useState } from 'react'
-
-
-import LogoTitle from '../../assets/images/logo-s.png'
+import AnimatedLetters from "../AnimatedLetters/AnimatedLetters.componet";
+import PinkLogoTitle from '../../assets/images/logoSpink.png'
+import LogoTitle from '../../assets/images/logoS.png'
 import Logo from "./logo/logo.componet";
 
 function HomeAnimation(){
-    
-      
+  const [letterClass, setLetterClass] = useState('text-animate')
+  const name = "am"
+  const job = "Software developer"
+  const nameArray = name.split("")
+  const jobArray = job.split("")
 
-  
-    return (
-        <Element  name="HomeAnimation" id="HomeAnimation">
-            <div className="home-page">
+  const [src, setSrc] = useState(LogoTitle);
+
+  useEffect(() => {
+    const idTimeOut = setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 3000)
+
+    return () => clearTimeout(idTimeOut);
+  }, [])
+    
+  const handleMouseEnter = () => {
+    console.log('Mouse entered');
+    console.log('PinkLogoTitle:', PinkLogoTitle);
+    setSrc(PinkLogoTitle);
+    console.log('src:', src);
+  };
+
+  const handleMouseLeave = () => {
+        setSrc(LogoTitle);
+  }
+    
+
+  return (
+    <Element  name="HomeAnimation" id="HomeAnimation">
+      <div className="container home-page">
         <div className="text-zone">
           <h1>
-                Hello
+            <span className={letterClass}>H</span>
+            <span className={`${letterClass} _12`}>e</span>
+            <span className={`${letterClass} _13`}>l</span>
+            <span className={`${letterClass} _14`}>l</span>
+            <span className={`${letterClass} _15`}>o</span>
             <br />
-            I'm
+            <span className={`${letterClass} _16`}>I</span>
+            <span className={`${letterClass} _17`}>'m</span>
             <img
-              src={LogoTitle}
-              alt="JavaScript Developer Name, Web Developer Name"
+              src={src}
+              onMouseEnter={handleMouseEnter} 
+              onMouseLeave={handleMouseLeave} 
+              alt="S"
             />
-            am
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={nameArray}
+              idx={17}
+            />
             <br />
-           Software developer
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={jobArray}
+              idx={12}
+            />
           </h1>
-          <h2>Full-stack Developer / </h2>
-          
+          <h2>Full-Stack Developer</h2>
         </div>
         <Logo />
       </div>
-
-        </Element>
-    )
-    
+    </Element>
+  );
 }
-
 
 export default HomeAnimation;
