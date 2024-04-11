@@ -18,24 +18,13 @@
     
   
     &:hover {
-      background-color: white;
+      background-color:rgba(236, 246, 237,1);
       color: black;
       border: 1px solid black;
     }
   
    
   
-    &.inverted {
-      background-color: #ffd700;
-      color: black;
-      border: 1px solid black;
-  
-      &:hover {
-        background-color: black;
-        color: #ffd700;
-        border: none;
-      }
-    }
   }
 
 

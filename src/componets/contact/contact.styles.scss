@@ -47,21 +47,24 @@
     input[type='email'] {
       width: 100%;
       border: 0;
-      background: #115173;
+      background: linear-gradient(112.44633185402233deg, rgba(226, 235, 239,1) 4.927083333333334%,rgba(208, 218, 224,1) 97.84374999999999%);
       height: 50px;
       font-size: 16px;
-      color: #fff;
+      color: black;
       padding: 0 20px;
+      font-family: serif;
       box-sizing: border-box;
+      
     }
   
     textarea {
       width: 100%;
       border: 0;
-      background: #115173;
+      background: linear-gradient(112.44633185402233deg, rgba(226, 235, 239,1) 4.927083333333334%,rgba(208, 218, 224,1) 97.84374999999999%);
       height: 50px;
       font-size: 16px;
-      color: #fff;
+      font-family: serif;
+      color: black;
       padding: 20px;
       box-sizing:border-box;
       min-height: 150px;
@@ -71,7 +74,8 @@
   }
   
   .text-zone {
-    
+    font-family: serif;
+    font-size: 20px;
     left: 10%;
     
    
@@ -79,12 +83,8 @@
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
+    
   }
 
-  .text-animate-hover {
-    &:hover {
-      color: #fff;
-    }
-  }
-
+  
   

@@ -1,44 +1,70 @@
-.MainContainer{
-    width: 100%;
+.MainContainer {
+    
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 50px;
+    
 }
+.projectDisplay{
+    display: flex;
 
+
+}
 .box{
-    width: 700px;
-    height: 500px;
-    background-color: #555;
-    margin: 50px 0;
+    width: 500px;
+    height: 300px;
+    background-color: #555; 
+    margin: 100px auto; 
     border-radius: 3px;
     box-shadow: 5px 15px 20px rgba(0,0,0,0.5);
+    animation: colorCycle 15s infinite; /* Add this line */
+}
+
+/* Define the keyframes for the colorCycle animation */
+@keyframes colorCycle {
+    0% { background-image: url("./../../assets/images/Capadoccia.jpg"); }
+    33% { background-color: green; }
+    67% { background-color: blue; }
     
 }
 
+.textboxRight{
+    width: 50%;
+    
+    margin: 50px 50px;
+}
 
-.box:nth-child(1) {
-    background:linear-gradient(90deg, rgba(243, 72, 104,1) 20.5625%,rgba(242, 71, 104,1) 20.5625%,rgba(158, 0, 236,1) 80.5625%) ;
+.box:nth-child(even) {
+    margin-left: auto;
+    margin-right: 0;
+    
 
 }
-.box:nth-child(2){
-    background:linear-gradient(112.44633185402233deg, rgba(249, 231, 148,1) 4.927083333333334%,rgba(246, 190, 212,1) 97.84374999999999%) ;
-
+.textboxLeft{
+    width: 50%;
+    
+    margin: 50px 50px;
 }
-.box:nth-child(3){
-    background:linear-gradient(112.44633185402233deg, rgba(224, 247, 135,1) 4.927083333333334%,rgba(78, 227, 250,1) 97.84374999999999%) ;
 
+
+
+
+
+
+
+/* Apply right margin to odd boxes, effectively pushing them to the left */
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: auto;
 }
-.box:nth-child(4){
-    background:linear-gradient(112.44633185402233deg, rgba(255, 148, 196,1) 4.927083333333334%,rgba(235, 81, 112,1) 97.84374999999999%) ;
 
-}
-.box:nth-child(5){
-    background:linear-gradient(112.44633185402233deg, rgba(248, 188, 79,1) 4.927083333333334%,rgba(211, 21, 87,1) 97.84374999999999%);
 
-}
-.box:nth-child(6){
-    background:linear-gradient(112.44633185402233deg, rgba(152, 39, 9,1) 4.927083333333334%,rgba(0, 2, 0,1) 97.84374999999999%) ;
-
+.textContainer {
+    
+    top: 50%; /* Adjust as needed */
+    transform: translateY(-50%); /* Center vertically */
+    /* Example: position text container to the right of the box */
+    right: -150px; /* Adjust distance from the box */
+    /* Additional styles as needed */
 }

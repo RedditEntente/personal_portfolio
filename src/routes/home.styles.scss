@@ -13,22 +13,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image:url(../assets/images/Capadoccia.jpg);
-
+  
 }
+
+.contactElement{
+ 
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+  
+
 .padding{
   padding: 20px 20px;
 }
 
-  .element1 {
-    height: 300vh;
-    padding: 20px;
-    margin-top: 60px; // Increase top margin to account for thicker navbar
-  }
   
 .home-color{
-    background: linear-gradient(112.44633185402233deg, rgba(249, 231, 148,1) 4.927083333333334%,rgba(246, 190, 212,1) 97.84374999999999%);
+    
+  background:rgba(236, 246, 237,1) ;
 }
+    
+
+
 
 
 
@@ -51,3 +60,75 @@
 .bottom-tag-html {
   margin-left: -20px;
 }
+
+
+
+.home-page {
+  height: 100vh;
+    padding: 20px;
+    margin-top: 60px; // Increase top margin to account for thicker navbar
+    margin: 50px 50px;
+  .text-zone {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+    margin: 100px;
+  }
+
+  h1 {
+    color: rgb(2, 42, 80)(2, 42, 80);
+    font-size: 80px;
+    line-height: 67px;
+    margin: 0;
+    font-family: 'Serif';
+    font: "Times New Roman";
+    font-weight: 400;
+
+    
+
+    img {
+      margin-left: 20px;
+      opacity: 0;
+      width: 32px;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+
+  h2 {
+    color: #8d8d8d;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  .flat-button {
+    color: #ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background: #ffd700;
+      color: #333;
+    }
+  }
+}
+
+
+
