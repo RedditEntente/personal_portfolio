@@ -21,11 +21,38 @@
     animation: colorCycle 15s infinite; /* Add this line */
 }
 
+.box1{
+    width: 500px;
+    height: 300px;
+    background-color: #555; 
+    margin: 100px auto; 
+    border-radius: 3px;
+    box-shadow: 5px 15px 20px rgba(0,0,0,0.5);
+    background: url("./../../assets/images/regexDfa.png") ;
+    background-size: 100% 100%;
+}
+
+.box2{
+    width: 500px;
+    height: 300px;
+    background-color: #555; 
+    margin: 100px auto; 
+    border-radius: 3px;
+    box-shadow: 5px 15px 20px rgba(0,0,0,0.5);
+    animation: colorCycle1 36s infinite; /* Add this line */
+    
+    
+}
+
 /* Define the keyframes for the colorCycle animation */
-@keyframes colorCycle {
-    0% { background-image: url("./../../assets/images/Capadoccia.jpg"); }
-    33% { background-color: green; }
-    67% { background-color: blue; }
+@keyframes colorCycle1 {
+    
+    
+    0%  { background-image: url("./../../assets/images/kiwirous6.PNG"); background-size: 100% 100% }
+    50% { background-image: url("./../../assets/images/kiwirous7.PNG"); background-size: 100% 100% }
+    100% { background-image: url("./../../assets/images/kiwirious8.PNG");
+        background-size: 100% 100%; }
+    
     
 }
 

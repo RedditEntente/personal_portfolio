@@ -35,3 +35,20 @@ svg{
   stroke:rgba(2, 42, 80) ;
   stroke-width: 10px;
 }
+
+.spinning {
+  animation: spin 1s linear forwards;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.frozen {
+  transform: rotate(180deg);
+}

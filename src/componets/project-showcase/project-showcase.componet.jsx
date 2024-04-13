@@ -26,7 +26,7 @@ function ProjectShowcase() {
             <div className="padding"></div>
             <div className="padding"></div>
             <div className="projectDisplay">
-            <div className="box" data-aos="fade-left"></div>
+            <div className="box2" data-aos="fade-left"></div>
             <div className="textboxRight" data-aos="fade-down"><h1>Project1</h1><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -42,8 +42,8 @@ function ProjectShowcase() {
             
             </div>
             <div className="projectDisplay">
-            <div className="box" data-aos="fade-left" ></div>
-            <div className="textboxRight" data-aos="fade-down"><h1>Project4</h1><p>adqawwdwdawdw</p></div>
+            <div className="box1" data-aos="fade-left" ></div>
+            <div className="textboxRight" data-aos="fade-down"><h1>Regex to DFA converter.</h1><p>adqawwdwdawdw</p></div>
             </div>
             
             

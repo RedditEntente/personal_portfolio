@@ -1,10 +1,19 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap-trial'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import LogoS from '../../../assets/images/logo-s.png'
 import './logo.styles.scss'
 
 const Logo = () => {
+  
+  const [isSpinning, setIsSpinning] = useState(false);
+  
+  const handleDivClick = () => {
+    setIsSpinning(true);
+    setTimeout(() => {
+      setIsSpinning(false);
+    }, 1000); 
+  };
   
 
   return (
@@ -15,8 +24,9 @@ const Logo = () => {
         src={LogoS}
         alt="JavaScript,  Developer"
       />
-
-      <svg
+      <div width="559pt"
+        height="897pt" className={isSpinning ? "spinning" : "frozen"}onClick={handleDivClick}>
+      <svg 
         width="559pt"
         height="897pt"
         version="1.0"
@@ -34,6 +44,7 @@ const Logo = () => {
           />
         </g>
       </svg>
+      </div>
     </div>
   )
 }

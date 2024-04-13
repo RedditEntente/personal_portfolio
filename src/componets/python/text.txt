@@ -1,0 +1,11 @@
+import React, { useState, useEffect } from 'react';
+import pythonIcon from './../../assets/images/pngwing.com.png'; // Import Python language icon
+import javascriptIcon from './../../assets/images/icons8-javascript-48.png'; // Import JavaScript language icon
+import javaIcon from './../../assets/images/icons8-java-48.png'; // Import Java language icon
+import cppIcon from './../../assets/images/icons8-c++-48.png'; // Import C++ language icon
+import csharpIcon from './../../assets/images/c--4.svg'; // Import C# language icon
+import phpIcon from './../../assets/images/php.svg'; // Import PHP language icon
+import swiftIcon from './../../assets/images/swift.svg'; // Import Swift language icon
+import typescriptIcon from './../../assets/images/typescript-icon.svg'; // Import TypeScript language icon
+import rubyIcon from './../../assets/images/c-1.svg'; // Import Ruby language icon
+import goIcon from './../../assets/images/golang-1.svg'; // Import Go language icon
