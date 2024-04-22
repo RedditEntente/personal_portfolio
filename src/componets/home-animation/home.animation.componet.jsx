@@ -24,10 +24,9 @@ function HomeAnimation(){
   }, [])
     
   const handleMouseEnter = () => {
-    console.log('Mouse entered');
-    console.log('PinkLogoTitle:', PinkLogoTitle);
+    
     setSrc(PinkLogoTitle);
-    console.log('src:', src);
+    
   };
 
   const handleMouseLeave = () => {
@@ -48,10 +47,11 @@ function HomeAnimation(){
             <br />
             <span className={`${letterClass} _16`}>I</span>
             <span className={`${letterClass} _17`}>'m</span>
-            <img
+            <img classname= "animation"
               src={src}
               onMouseEnter={handleMouseEnter} 
               onMouseLeave={handleMouseLeave} 
+              
               alt="S"
             />
             <AnimatedLetters

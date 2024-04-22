@@ -1,0 +1,28 @@
+
+.header{
+
+    text-align: center;
+    justify-content: center;
+}
+p{
+    text-decoration: dotted;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.layout{
+    display:block;
+}
+.text-container{
+    display: flex;
+    width: 50%;
+    height: 500px;
+    margin: 40px;
+    
+}
+.book-container{
+display: flex;
+  
+  
+  margin-right: 150px;
+  margin-left: 50px;
+}

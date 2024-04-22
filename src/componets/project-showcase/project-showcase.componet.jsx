@@ -21,7 +21,9 @@ function ProjectShowcase() {
         });
     })
     return(
+        
         <Element name="projectShowcase" id="projectShowcase">
+            <h1 className="header">Projects</h1>
         <div className="MainContainer">
             <div className="padding"></div>
             <div className="padding"></div>
