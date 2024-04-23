@@ -6,8 +6,9 @@
 }
 p{
     text-decoration: dotted;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font: "Times New Roman";
+    margin: 20px;
 }
 .layout{
     display:block;
@@ -20,9 +21,32 @@ p{
     
 }
 .book-container{
+    justify-content: center;
 display: flex;
+
   
   
-  margin-right: 150px;
-  margin-left: 50px;
+  
+}
+.AboutMeClass{
+    display: flex;
+    justify-content: center;
+
+}
+.profilePhoto{
+    border-radius: 50px;
+    width: 400px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 50px;
+
+}
+
+.AboutMeText{
+    border-radius: 50px;
+    margin: 50px;
+    width: 900px;
+    height: 450px;
+    border: 1px solid black;
+
 }
