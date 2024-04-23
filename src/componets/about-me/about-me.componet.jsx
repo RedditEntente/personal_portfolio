@@ -5,7 +5,7 @@ import { Element } from "react-scroll";
 import {useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
-
+import photoME from "./../../assets/images/Capture.PNG"
 
 function AboutMe(){
   useEffect(()=>{
@@ -19,11 +19,11 @@ function AboutMe(){
     });
 })
   return (
-    <Element name="AboutMe" id="AboutMe">
+    <Element className="about-element" id="AboutMe" name="AboutMe" >
     <div>
         <div className="AboutMeClass">
-          <div className="profilePhoto"></div>
-          <div className="AboutMeText"><p> A passionate programmer with a deep-rooted enthusiasm for crafting elegant solutions to complex problems. I hold a Bachelor's degree in Computer Science from the esteemed University of Auckland, where I honed my skills and cultivated my love for technology.
+          <img className="profilePhoto" src = {photoME} alt = "S"></img>
+          <div className="AboutMeText"><p className="about-me-p"> A passionate programmer with a deep-rooted enthusiasm for crafting elegant solutions to complex problems. I hold a Bachelor's degree in Computer Science from the esteemed University of Auckland, where I honed my skills and cultivated my love for technology.
 
 My journey in the world of programming began with a curiosity that turned into a lifelong passion. From the early days of tinkering with code to the rigorous academic challenges at university, I've embraced every opportunity to expand my knowledge and refine my craft.
 
@@ -33,7 +33,7 @@ Outside of the classroom, I've embarked on numerous projects and initiatives tha
 
 Beyond the lines of code, I'm driven by a passion for continuous learning and a desire to make a meaningful impact in the tech community. I believe that technology has the power to shape our world for the better, and I'm committed to leveraging my skills to drive positive change and innovation.
 
-As I continue on my journey as a passionate programmer, I'm excited to embrace new challenges, learn from every experience, and contribute to the ever-evolving landscape of technology.</p>
+As I continue on my journey as a passionate programmer, I'm excited to embrace new challenges, learn from every experience, and contribute to the ever-evolving landscape of technology. In my spare time i love getting out on the water and restoring the Roman Empire</p>
 </div>  
         </div>
 

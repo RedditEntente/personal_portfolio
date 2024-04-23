@@ -1,9 +1,20 @@
-.element {
-    height: 100vh;
-    padding: 20px;
-    margin-top: 60px; // Increase top margin to account for thicker navbar
-    margin: 50px 50px;
+.about-element{
+    height: 135vh;
+    
+    margin-top: 80px;
+    background: rgb(2, 42, 80);
+    z-index: 1;
+    
   }
+
+.project-element{
+    background: linear-gradient(180deg,#ff6600, rgba(152, 39, 9,1),);
+    height: 180vh;
+    padding: 20px;
+    
+    
+  
+}
 
 .centeredElement{
   height: 100vh;
@@ -68,6 +79,7 @@
     padding: 20px;
     margin-top: 60px; // Increase top margin to account for thicker navbar
     margin: 50px 50px;
+    
   .text-zone {
     position: absolute;
     left: 50%;
@@ -135,6 +147,66 @@
     }
   }
 }
+.custom-shape-divider-bottom-1713873886 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 0;
+}
+
+.custom-shape-divider-bottom-1713873886 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 220px;
+  z-index: 0;
+}
+
+.custom-shape-divider-bottom-1713873886 .shape-fill {
+  fill: rgb(2, 42, 80);
+  z-index: 0;
+}
 
 
+.custom-shape-divider-bottom-1713873044 {
+ 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 0;
+  
+}
+
+.custom-shape-divider-bottom-1713873044 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 107px;
+  background: rgb(2, 42, 80);
+  z-index: 0;
+}
+
+.custom-shape-divider-bottom-1713873044 .shape-fill {
+  fill: #ff6600;
+  z-index: 0;
+}
+
+.spacer{
+  aspect-ratio: 2/1;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.layer1{
+  background-image: url("./../assets/images/layered-waves-haikei\(2\).svg");
+}
 
