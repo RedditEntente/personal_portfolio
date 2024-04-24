@@ -19,7 +19,7 @@ function MyBook(props) {
             <div className="lined-paper"
                 
               >
-                <h1>Bread and Butter</h1><div className='programing-languages-container'><img className="pythonImg" src={pythonIcon} alt='S'></img><img className="pythonImg"src={javaIcon} alt='S'></img></div>
+                <div className='programing-languages-container'><img className="pythonImg" src={pythonIcon} alt='S'></img><img className="pythonImg"src={javaIcon} alt='S'></img></div>
               <p className='pbook'>
 
 I possess strong proficiency in both Python and Java. With Python, I excel in leveraging its simplicity and versatility to develop efficient and elegant solutions to complex problems. My experience encompasses a wide range of Python libraries and frameworks, allowing me to work adeptly in areas such as web development, data analysis, machine learning, 

@@ -25,8 +25,8 @@ function ProjectShowcase() {
         <Element className="project-element" name="projectShowcase" id="projectShowcase">
             
         <div className="MainContainer">
-            <div className="padding"></div>
-            <div className="padding"></div>
+            <h1>Projects</h1>
+            
             <div className="projectDisplay">
             <div className="box2" data-aos="fade-left"></div>
             <div className="textboxRight" data-aos="fade-down"><h1>Kiwrious Python Sensor Library</h1><h2>An open-source Python library for programming with real-time sensor data.</h2><p>Input to programs created using Python typically happen using keyboard and mouse. The ability to incorporate real-time environmental data measured through sensors as input could open doors to new programming experiences.
