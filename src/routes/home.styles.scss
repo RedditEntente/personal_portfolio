@@ -1,15 +1,14 @@
 .about-element{
-    height: 135vh;
+    height: 150vh;
     
     margin-top: 80px;
-    background: rgb(2, 42, 80);
-    z-index: 1;
+    
     
   }
 
 .project-element{
     background: linear-gradient(180deg,#ff6600, rgba(152, 39, 9,1),);
-    height: 180vh;
+    height: 170vh;
     padding: 20px;
     
     
@@ -162,12 +161,12 @@
   display: block;
   width: calc(100% + 1.3px);
   height: 220px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .custom-shape-divider-bottom-1713873886 .shape-fill {
   fill: rgb(2, 42, 80);
-  z-index: 0;
+  z-index: -1;
 }
 
 
@@ -210,3 +209,8 @@
   background-image: url("./../assets/images/layered-waves-haikei\(2\).svg");
 }
 
+
+
+.layer2{
+  background-image: url("./../assets//images/layered-waves-haikei\(7\).svg");
+}

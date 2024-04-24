@@ -26,7 +26,7 @@ I possess strong proficiency in both Python and Java. With Python, I excel in le
 and automation. In Java, I demonstrate a deep understanding of object-oriented programming principles and design patterns. My ability to write clean, maintainable code and my dedication to staying updated with the latest advancements in both languages make me a valuable asset to any development team.
             </p></
               div>
-            <div className="lined-paper"></div>
+            <div className="lined-paper"><SnakeGame></SnakeGame></div>
 
 
             <div className="ImgPageContainer"><h1>Frontend Development</h1><img className='jsImg' src={jsIcon} alt='S'></img><img className='jsImg' src={htmlIcon} alt='S'></img><img className='jsImg' src={reactIcon} alt='S'></img><img  className='jsImg' src={cssIcon} alt='S'></img>
@@ -34,7 +34,7 @@ and automation. In Java, I demonstrate a deep understanding of object-oriented p
             </p></div>
 
 
-            <div className="lined-paper"><SnakeGame></SnakeGame></div>
+            <div className="lined-paper"></div>
 
 
             <div class="lined-paper">

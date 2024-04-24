@@ -37,12 +37,13 @@ As I continue on my journey as a passionate programmer, I'm excited to embrace n
 </div>  
         </div>
 
-        
+      
       <div className="book-container">
       
       <Book data-aos="fade-down"></Book>
       
       </div>
+      
       
       
     </div>
