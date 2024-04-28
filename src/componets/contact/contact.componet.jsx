@@ -12,9 +12,23 @@ import Button1 from "../button/button.componet";
 
 
 function Contact(){
-    const [letterClass, setLetterClass] = useState('text-animate')
-    const form = useRef()
     
+    const form = useRef()
+    const sendEmail = (e) => {
+      e.preventDefault()
+  
+      emailjs
+        .sendForm('service_xsmlczr', 'template_ahtou88', form.current, 'eTS2q6IUZPBW4nEG5')
+        .then(
+          () => {
+            alert('Message successfully sent!')
+            window.location.reload(false)
+          },
+          () => {
+            alert('Failed to send the message, please try again')
+          }
+        )
+    }
   
     
   
@@ -33,7 +47,7 @@ function Contact(){
           </h1>
           
           <div className="contact-form">
-            <form ref={form} >
+            <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input placeholder="Name" type="text" name="name" required />
