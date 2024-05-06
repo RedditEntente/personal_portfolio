@@ -31,6 +31,8 @@ and automation. In Java, I demonstrate a deep understanding of object-oriented p
 
             <div className="ImgPageContainer"><h1>Frontend Development</h1><img className='jsImg' src={jsIcon} alt='S'></img><img className='jsImg' src={htmlIcon} alt='S'></img><img className='jsImg' src={reactIcon} alt='S'></img><img  className='jsImg' src={cssIcon} alt='S'></img>
             <p className='pbook'>
+            I possess strong proficiency in both Python and Java. With Python, I excel in leveraging its simplicity and versatility to develop efficient and elegant solutions to complex problems. My experience encompasses a wide range of Python libraries and frameworks, allowing me to work adeptly in areas such as web development, data analysis, machine learning, 
+and automation. In Java, I demonstrate a deep understanding of object-oriented programming principles and design patterns. My ability to write clean, maintainable code and my dedication to staying updated with the latest advancements in both languages make me a valuable asset to any development team.
             </p></div>
 
 

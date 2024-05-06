@@ -33,7 +33,7 @@ Outside of the classroom, I've embarked on numerous projects and initiatives tha
 
 Beyond the lines of code, I'm driven by a passion for continuous learning and a desire to make a meaningful impact in the tech community. I believe that technology has the power to shape our world for the better, and I'm committed to leveraging my skills to drive positive change and innovation.
 
-As I continue on my journey as a passionate programmer, I'm excited to embrace new challenges, learn from every experience, and contribute to the ever-evolving landscape of technology. In my spare time i love getting out on the water and restoring the Roman Empire</p>
+As I continue on my journey as a passionate programmer, I'm excited to embrace new challenges, learn from every experience, and contribute to the ever-evolving landscape of technology. In my spare time i love getting out on the water, restoring the Roman Empire and waiting for the Elder Scrolls VI</p>
 </div>  
         </div>
 
