@@ -49,10 +49,10 @@ function Contact(){
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>
-                <li className="half">
+                <li >
                   <input placeholder="Name" type="text" name="name" required />
                 </li>
-                <li className="half">
+                <li >
                   <input
                     placeholder="Email"
                     type="email"
