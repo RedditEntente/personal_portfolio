@@ -22,8 +22,8 @@ function MyBook(props) {
                 <div className='programing-languages-container'><img className="pythonImg" src={pythonIcon} alt='S'></img><img className="pythonImg"src={javaIcon} alt='S'></img></div>
               <p className='pbook'>
 
-I possess strong proficiency in both Python and Java. With Python, I excel in leveraging its simplicity and versatility to develop efficient and elegant solutions to complex problems. My experience encompasses a wide range of Python libraries and frameworks, allowing me to work adeptly in areas such as web development, data analysis, machine learning, 
-and automation. In Java, I demonstrate a deep understanding of object-oriented programming principles and design patterns. My ability to write clean, maintainable code and my dedication to staying updated with the latest advancements in both languages make me a valuable asset to any development team.
+I possess strong proficiency in both Python and Java. I excel in leveraging its simplicity and versatility to develop efficient and elegant solutions to complex problems. My experience encompasses a wide range of Python libraries and frameworks, allowing me to work adeptly in areas such as web development, data analysis, machine learning, 
+and automation. I demonstrate a deep understanding of object-oriented programming principles and design patterns. My ability to write clean, maintainable code and my dedication to staying updated with the latest advancements in both languages make me a valuable asset to any development team.
             </p></
               div>
             <div className="lined-paper"><SnakeGame></SnakeGame></div>
